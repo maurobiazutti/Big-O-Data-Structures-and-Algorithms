@@ -24,7 +24,8 @@ A Notação Big-O (O) é a principal métrica para descrever a complexidade (des
 
 ---
 
-### Complexidade O(1) Tempo Constante
+### Complexidade - O(1) Tempo Constante
+
 A complexidade de tempo O(1) (Tempo Constante) é a mais eficiente em termos de Big-O. Ela significa que o tempo de execução de um algoritmo ou de uma operação não muda em relação ao tamanho da entrada (n).Independentemente se você está trabalhando com 1 item, 1.000 itens ou 1 bilhão de itens, a operação levará essencialmente o mesmo tempo.
 
 #### Exemplos de uso
@@ -32,4 +33,10 @@ A complexidade de tempo O(1) (Tempo Constante) é a mais eficiente em termos de 
 > [Ruby O(1)](ruby/exe_o(1).rb)
 
 > [Javascript O(1)](javascript/exe_o(1).js)
+
+---
+
+### Complexidade - O(log n) Tempo Logarítmico
+
+
 
