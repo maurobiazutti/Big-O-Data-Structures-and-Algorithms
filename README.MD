@@ -28,7 +28,7 @@ A Notação Big-O (O) é a principal métrica para descrever a complexidade (des
 
 A complexidade de tempo O(1) (Tempo Constante) é a mais eficiente em termos de Big-O. Ela significa que o tempo de execução de um algoritmo ou de uma operação não muda em relação ao tamanho da entrada (n).Independentemente se você está trabalhando com 1 item, 1.000 itens ou 1 bilhão de itens, a operação levará essencialmente o mesmo tempo.
 
-#### Exemplos de uso
+#### Exemplos de Uso:
 
 > [Ruby O(1)](ruby/exe_o(1).rb)
 
@@ -57,3 +57,9 @@ O exemplo mais comum de um algoritmo com complexidade O(log n) é a **Busca Bin�
 - Se o valor do meio for menor, ele sabe que o item desejado deve estar na **metade superior** da lista e **descarta toda a metade inferior.**
 
 3. **Resultado:**  Em cada passo, o espaço de busca é **reduzido pela metade.** É por isso que a eficiência é logarítmica (na base 2, log_2 n).
+
+#### Exemplos de Uso:
+
+> [Ruby O(log n)](ruby/tempo_logaritmico.rb)
+
+> [Javascript O(log n)](javascript/tempo_logaritmico.js)
