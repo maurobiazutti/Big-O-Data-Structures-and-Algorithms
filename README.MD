@@ -38,7 +38,7 @@ A complexidade de tempo O(1) (Tempo Constante) é a mais eficiente em termos de 
 
 ### Complexidade - O(log n) Tempo Logarítmico
 
-O Tempo Logarítmico, representado como O(log n), descreve um algoritmo cuja eficiência de execução (o tempo que ele leva) cresce de forma muito lenta conforme o tamanho da entrada (n) aumenta. É muito mais rápido do que o tempo linear O(n).
+O **Tempo Logarítmico**, representado como **O(log n)**, descreve um algoritmo cuja eficiência de execução (o tempo que ele leva) cresce de forma muito lenta conforme o tamanho da entrada (n) aumenta. É muito mais rápido do que o tempo linear O(n).
 
 A chave do tempo logarítmico é o conceito de dividir para conquistar. Em cada passo ou iteração, o algoritmo consegue descartar uma grande porção dos dados de entrada, geralmente metade deles. Isso significa que, para dobrar o tamanho da entrada, você só precisa de uma operação extra para processar os dados.
 
@@ -50,11 +50,11 @@ O exemplo mais comum de um algoritmo com complexidade O(log n) é a **Busca Bin�
 
 2. **Mecanismo:**  Para encontrar um item em uma lista ordenada, o algoritmo não verifica elemento por elemento (isso seria O(n)). Em vez disso, ele:
 
-- **Verifica o elemento do meio** da lista.
+   - **Verifica o elemento do meio** da lista.
   
-- Compara o valor do meio com o valor que está procurando.
+   - Compara o valor do meio com o valor que está procurando.
   
-- Se o valor do meio for menor, ele sabe que o item desejado deve estar na **metade superior** da lista e **descarta toda a metade inferior.**
+   - Se o valor do meio for menor, ele sabe que o item desejado deve estar na **metade superior** da lista e **descarta toda a metade inferior.**
 
 3. **Resultado:**  Em cada passo, o espaço de busca é **reduzido pela metade.** É por isso que a eficiência é logarítmica (na base 2, log_2 n).
 
@@ -63,3 +63,39 @@ O exemplo mais comum de um algoritmo com complexidade O(log n) é a **Busca Bin�
 > [Ruby O(log n)](ruby/tempo_logaritmico.rb)
 
 > [Javascript O(log n)](javascript/tempo_logaritmico.js)
+
+---
+
+### Complexidade - O(n) Tempo Linear
+
+O **Tempo Linear**, ou **O(n)**, descreve algoritmos cujo tempo de execução cresce de forma **diretamente proporcional** ao **tamanho da entrada** (n).
+
+**Proporcionalidade Direta:** Se a entrada tem 10 elementos e o algoritmo leva 10 milissegundos, para 20 elementos ele levará aproximadamente 20 milissegundos. Se a entrada dobra, o tempo dobra.
+
+ #### Exemplos Típicos de O(n):
+ 
+Um algoritmo é linear quando ele precisa, no pior caso, tocar ou processar cada elemento da entrada uma única vez.
+
+1. Busca Linear (ou Busca Sequencial)
+
+   - Problema: Encontrar um valor específico em uma lista de n elementos.
+
+   - Processo: Você percorre a lista do começo ao fim.
+
+   - Pior Caso: O valor procurado é o último elemento da lista ou não existe. O algoritmo deve verificar todos os n elementos antes de concluir.
+  
+2. Encontrar o Valor Mínimo/Máximo 
+
+   - Problema:Encontrar o maior ou menor número em uma lista desordenada de n elementos.
+  
+   - Processo: Você precisa iterar sobre a lista inteira, comparando cada elemento com o valor máximo/mínimo atual.
+
+   - Complexidade: Você faz exatamente n-1 comparações, o que é arredondado para O(n).
+
+3. Cópia de um ArrayProblema: 
+
+   - Criar uma cópia exata de um array (vetor) de n elementos.
+  
+   - Processo: Você deve acessar cada um dos $n$ elementos do array original para copiá-lo para o novo array.
+  
+   - Complexidade: O(n).
