@@ -99,3 +99,9 @@ Um algoritmo é linear quando ele precisa, no pior caso, tocar ou processar cada
    - Processo: Você deve acessar cada um dos $n$ elementos do array original para copiá-lo para o novo array.
   
    - Complexidade: O(n).
+
+#### Exemplos de Uso:
+
+> [Ruby O(n)](ruby/tempo_linear.rb)
+
+> [Javascript O(n)](javascript/tempo_linear.js)
