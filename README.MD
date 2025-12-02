@@ -24,7 +24,7 @@ A Notação Big-O (O) é a principal métrica para descrever a complexidade (des
 
 ---
 
-### Complexidade - O(1) Tempo Constante
+## Complexidade - O(1) Tempo Constante
 
 A complexidade de tempo O(1) (Tempo Constante) é a mais eficiente em termos de Big-O. Ela significa que o tempo de execução de um algoritmo ou de uma operação não muda em relação ao tamanho da entrada (n).Independentemente se você está trabalhando com 1 item, 1.000 itens ou 1 bilhão de itens, a operação levará essencialmente o mesmo tempo.
 
@@ -36,7 +36,7 @@ A complexidade de tempo O(1) (Tempo Constante) é a mais eficiente em termos de 
 
 ---
 
-### Complexidade - O(log n) Tempo Logarítmico
+## Complexidade - O(log n) Tempo Logarítmico
 
 O **Tempo Logarítmico**, representado como **O(log n)**, descreve um algoritmo cuja eficiência de execução (o tempo que ele leva) cresce de forma muito lenta conforme o tamanho da entrada (n) aumenta. É muito mais rápido do que o tempo linear O(n).
 
@@ -66,7 +66,7 @@ O exemplo mais comum de um algoritmo com complexidade O(log n) é a **Busca Bin�
 
 ---
 
-### Complexidade - O(n) Tempo Linear
+## Complexidade - O(n) Tempo Linear
 
 O **Tempo Linear**, ou **O(n)**, descreve algoritmos cujo tempo de execução cresce de forma **diretamente proporcional** ao **tamanho da entrada** (n).
 
@@ -105,3 +105,7 @@ Um algoritmo é linear quando ele precisa, no pior caso, tocar ou processar cada
 > [Ruby O(n)](ruby/tempo_linear.rb)
 
 > [Javascript O(n)](javascript/tempo_linear.js)
+
+---
+
+## Complexidade - O(n log n)  Tempo Linearítmico
